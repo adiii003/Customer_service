@@ -1,0 +1,274 @@
+[
+  {
+    "question": "How do I create a new account?",
+    "answer": "To create a new account, click on the 'Sign Up' button on our homepage, enter your details, verify your email, and set a secure password."
+  },
+  {
+    "question": "I forgot my password. How can I reset it?",
+    "answer": "Click on 'Forgot Password' at the login screen, enter your registered email, and follow the link sent to your inbox to reset your password."
+  },
+  {
+    "question": "Can I change my email address after registration?",
+    "answer": "Yes, you can update your email address in your account settings under 'Profile Information'."
+  },
+  {
+    "question": "How can I delete my account permanently?",
+    "answer": "Go to account settings, scroll to 'Delete Account', and confirm. Please note this action is irreversible."
+  },
+  {
+    "question": "What should I do if I can't log in?",
+    "answer": "Ensure you're using the correct email and password. If the problem continues, reset your password or contact customer support."
+  },
+  {
+    "question": "How do I raise a complaint?",
+    "answer": "Go to the 'Support' section, click on 'Raise Complaint', provide the issue details, and submit the form."
+  },
+  {
+    "question": "How can I track my complaint status?",
+    "answer": "You can track your complaint in the 'My Tickets' section using your ticket ID."
+  },
+  {
+    "question": "What if my complaint is not resolved on time?",
+    "answer": "If your complaint exceeds the resolution timeline, you can escalate it to a supervisor directly from the ticket details page."
+  },
+  {
+    "question": "Can I cancel a ticket I raised?",
+    "answer": "Yes, you can cancel an open ticket from the 'My Tickets' section as long as it is not yet resolved."
+  },
+  {
+    "question": "How long does it take to resolve a complaint?",
+    "answer": "Most complaints are resolved within 48 hours. Complex issues may take longer, and you will be updated regularly."
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept credit/debit cards, UPI, net banking, PayPal, and wallet payments."
+  },
+  {
+    "question": "My payment failed but money was deducted. What should I do?",
+    "answer": "If your payment failed but was deducted, it is usually reversed within 5–7 working days. If not, raise a support ticket with your transaction ID."
+  },
+  {
+    "question": "How do I apply a discount coupon?",
+    "answer": "On the checkout page, enter your coupon code in the 'Apply Coupon' field before making payment."
+  },
+  {
+    "question": "Can I get a refund after cancellation?",
+    "answer": "Yes, refunds are processed to your original payment method within 5–7 working days after cancellation."
+  },
+  {
+    "question": "What is the refund policy?",
+    "answer": "Refunds are available for cancellations within the specified period mentioned in our refund and cancellation policy."
+  },
+  {
+    "question": "How can I cancel my order or booking?",
+    "answer": "Go to 'My Orders' or 'My Bookings', select the item, and click 'Cancel'."
+  },
+  {
+    "question": "How can I reschedule a booking?",
+    "answer": "You can reschedule from 'My Bookings' by selecting a new date and time, subject to availability."
+  },
+  {
+    "question": "Where can I give feedback about your service?",
+    "answer": "You can submit feedback in the 'Feedback' section of your account dashboard."
+  },
+  {
+    "question": "How do I rate your service?",
+    "answer": "After your order or service is complete, you will receive a feedback form where you can rate us."
+  },
+  {
+    "question": "What if I want to escalate my issue?",
+    "answer": "You can escalate your issue by selecting 'Escalate' in the complaint ticket or requesting a supervisor via live chat."
+  },
+  {
+    "question": "Can I talk to a live agent?",
+    "answer": "Yes, type 'Connect to agent' in chat or click 'Live Support' to be connected with an available agent."
+  },
+  {
+    "question": "Do you have a toll-free helpline number?",
+    "answer": "Yes, you can reach us at our toll-free number listed under the 'Contact Us' page."
+  },
+  {
+    "question": "How can I track my delivery?",
+    "answer": "Go to 'My Orders' and click 'Track Delivery' to see the live status of your shipment."
+  },
+  {
+    "question": "What are the delivery charges?",
+    "answer": "Delivery charges depend on your location and the product/service. Details are shown at checkout."
+  },
+  {
+    "question": "Can I change my delivery address after placing an order?",
+    "answer": "Yes, you can update your delivery address before the order is shipped. Go to 'My Orders' > 'Edit Address'."
+  },
+  {
+    "question": "How do I reschedule my delivery?",
+    "answer": "From 'My Orders', select your delivery and click 'Reschedule'. Pick a new date and time."
+  },
+  {
+    "question": "My package is delayed. What should I do?",
+    "answer": "If your package is delayed, check the tracking page for updates or contact support for assistance."
+  },
+  {
+    "question": "What loyalty programs do you offer?",
+    "answer": "We offer reward points for every purchase, which you can redeem for discounts on future orders."
+  },
+  {
+    "question": "How do I check my loyalty points balance?",
+    "answer": "Log in to your account and check the 'Rewards' section to see your available loyalty points."
+  },
+  {
+    "question": "How do I redeem my loyalty points?",
+    "answer": "During checkout, select 'Use Loyalty Points' to redeem your available points."
+  },
+  {
+    "question": "Do you offer discounts for first-time customers?",
+    "answer": "Yes, first-time customers can use the welcome code provided at sign-up for a discount."
+  },
+  {
+    "question": "How do I subscribe to offers and promotions?",
+    "answer": "Subscribe to our newsletter in the 'Offers & Promotions' section or enable notifications in your account."
+  },
+  {
+    "question": "Where can I see current offers?",
+    "answer": "You can view all active offers on the 'Offers' page or the app's home screen."
+  },
+  {
+    "question": "How can I contact customer support?",
+    "answer": "You can reach customer support via chat, email, or our helpline number listed under 'Contact Us'."
+  },
+  {
+    "question": "What are your customer support hours?",
+    "answer": "Our support team is available 24/7 for chat and email. Phone support is available from 9 AM to 9 PM."
+  },
+  {
+    "question": "Can I get service updates via SMS?",
+    "answer": "Yes, enable SMS notifications under your account preferences to receive updates on your orders and tickets."
+  },
+  {
+    "question": "Do you support multiple languages?",
+    "answer": "Yes, our chatbot and support team are available in multiple languages. You can choose your preferred language in settings."
+  },
+  {
+    "question": "How do I update my personal details?",
+    "answer": "Go to account settings, click on 'Profile Information', and update your personal details."
+  },
+  {
+    "question": "Can I download my invoices?",
+    "answer": "Yes, invoices are available in the 'My Orders' section and can be downloaded as PDF."
+  },
+  {
+    "question": "What if I entered the wrong shipping address?",
+    "answer": "If your order hasn't shipped yet, you can update the address from 'My Orders'. If shipped, contact support for assistance."
+  },
+  {
+    "question": "Can I schedule installation service?",
+    "answer": "Yes, after delivery you can schedule installation service via 'My Services'."
+  },
+  {
+    "question": "Do you provide warranty information?",
+    "answer": "Yes, warranty details are provided on the product page and in your order confirmation email."
+  },
+  {
+    "question": "How do I claim warranty service?",
+    "answer": "Raise a service request under 'My Services' with proof of purchase, and our team will assist you."
+  },
+  {
+    "question": "Do you support exchanges?",
+    "answer": "Yes, eligible products can be exchanged. Go to 'My Orders' and click 'Request Exchange'."
+  },
+  {
+    "question": "What is your cancellation policy?",
+    "answer": "Cancellations are allowed within the specified time window mentioned in the product or service policy."
+  },
+  {
+    "question": "How do I change my subscription plan?",
+    "answer": "Go to 'My Subscriptions' in your account and select 'Change Plan'."
+  },
+  {
+    "question": "Can I pause my subscription?",
+    "answer": "Yes, you can pause your subscription for a defined period under 'My Subscriptions'."
+  },
+  {
+    "question": "Do you provide e-receipts?",
+    "answer": "Yes, e-receipts are automatically sent to your registered email and are available in your account."
+  },
+  {
+    "question": "How do I unsubscribe from promotional emails?",
+    "answer": "Click 'Unsubscribe' at the bottom of any promotional email or change your preferences in account settings."
+  },
+  {
+    "question": "Can I pay in installments?",
+    "answer": "Yes, we provide EMI options on select credit cards. Availability will be shown at checkout."
+  },
+  {
+    "question": "Is my payment information secure?",
+    "answer": "Yes, we use encrypted and PCI-compliant payment gateways to ensure the security of your payment information."
+  },
+  {
+    "question": "How do I know if my order was successful?",
+    "answer": "Once your order is placed, you'll receive a confirmation email and SMS with your order details."
+  },
+  {
+    "question": "What happens if I miss a scheduled service?",
+    "answer": "If you miss a scheduled service, you can reschedule from 'My Services'. Additional charges may apply in some cases."
+  },
+  {
+    "question": "Do you have a mobile app?",
+    "answer": "Yes, our mobile app is available for download on both Android and iOS platforms."
+  },
+  {
+    "question": "Can I save items for later purchase?",
+    "answer": "Yes, you can add items to your wishlist and purchase them later from your account."
+  },
+  {
+    "question": "Do you support international shipping?",
+    "answer": "Yes, we provide international shipping to select countries. Charges and timelines vary by location."
+  },
+  {
+    "question": "What happens if my product arrives damaged?",
+    "answer": "If your product arrives damaged, raise a return or exchange request immediately under 'My Orders'."
+  },
+  {
+    "question": "Can I gift an order to someone?",
+    "answer": "Yes, you can select 'Gift Option' at checkout and provide recipient details."
+  },
+  {
+    "question": "Do you offer same-day delivery?",
+    "answer": "Yes, same-day delivery is available for select products and locations. Availability is shown at checkout."
+  },
+  {
+    "question": "How do I update my payment method?",
+    "answer": "Go to 'Payment Settings' in your account and update or add a new payment method."
+  },
+  {
+    "question": "Can I get an installment payment receipt?",
+    "answer": "Yes, installment receipts are available in the 'Payments' section of your account."
+  },
+  {
+    "question": "Do you charge cancellation fees?",
+    "answer": "Cancellation fees may apply depending on the service or product policy. Details are shown during cancellation."
+  },
+  {
+    "question": "Can I download my ticket or booking confirmation?",
+    "answer": "Yes, all booking confirmations can be downloaded as PDF from 'My Bookings'."
+  },
+  {
+    "question": "Do you provide order history?",
+    "answer": "Yes, your complete order history is available under 'My Orders'."
+  },
+  {
+    "question": "How can I get priority customer support?",
+    "answer": "Priority support is available for premium members. You can upgrade your plan to access this feature."
+  },
+  {
+    "question": "Do you provide live chat support on weekends?",
+    "answer": "Yes, live chat support is available 24/7, including weekends and holidays."
+  },
+  {
+    "question": "How can I verify if an email from you is genuine?",
+    "answer": "All our official emails are sent from addresses ending with our domain. Avoid clicking on suspicious links."
+  },
+  {
+    "question": "Do you provide updates on outages or service issues?",
+    "answer": "Yes, we post updates on our status page and notify affected customers via email or SMS."
+  }
+]
