@@ -155,4 +155,5 @@ user_input = st.text_input(
 )
 
 st.sidebar.title("💬 Customer Service Bot")
-st.sidebar.info("Handles complaints, tickets, refunds, troubleshooting and more. Powered by Groq LLM")
+st.sidebar.info("Handles complaints, tickets, refunds, troubleshooting and more. Powered by Adivi.ai")
+
