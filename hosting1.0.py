@@ -28,7 +28,7 @@ COMPANY_PRODUCTS = "Kitchen Chimneys, Exhaust Hoods, Range Hoods"
 # -----------------------------
 # DB SETUP
 # -----------------------------
-client = MongoClient(MONGO_URI)
+#client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 customers = db[CUSTOMERS_COL]
 tickets = db[TICKETS_COL]
@@ -1180,4 +1180,5 @@ with st.expander("Plug & Play Features"):
     """)
 
 st.markdown(f"**Current Customer:** {st.session_state['conv_state'].get('customer_name', 'Guest')}")
+
 st.markdown(f"**Phase:** {st.session_state['conv_state']['phase']}")
