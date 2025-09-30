@@ -7,6 +7,8 @@ from langchain.chains import LLMChain
 import re
 import random
 from datetime import datetime
+from datetime import timezone, timedelta
+
 import json
 
 # -----------------------------
@@ -268,7 +270,8 @@ st.caption(f"AI-powered support for {COMPANY_DOMAIN}")
 # Initialize with domain-specific greeting
 if st.session_state["conv_state"]["phase"] == "entry" and not st.session_state["messages"]:
     # Get time of day for more personalized greeting
-    current_hour = datetime.now().hour
+    ist = timezone(timedelta(hours=5, minutes=30))
+    current_hour = datetime.now(ist).hour
     time_greeting = "Good morning" if current_hour < 12 else "Good afternoon" if current_hour < 17 else "Good evening"
     
     try:
@@ -1182,3 +1185,4 @@ with st.expander("Plug & Play Features"):
 st.markdown(f"**Current Customer:** {st.session_state['conv_state'].get('customer_name', 'Guest')}")
 
 st.markdown(f"**Phase:** {st.session_state['conv_state']['phase']}")
+
