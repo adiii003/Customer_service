@@ -75,6 +75,9 @@ if "conv_state" not in st.session_state:
         "conversation_memory": {}
     }
 
+number_of_models = 25 
+count = number_of_models
+
 # -----------------------------
 # UTILITIES
 # -----------------------------
@@ -997,7 +1000,7 @@ def handle_product_query_phase(text):
         return
     
     if any(phrase in text.lower() for phrase in ["more products", "more chimney", "more models", "other options", "what else", "more options"]):
-        response = "I found {count} kitchen chimney models total. Since there are several options to choose from, you can explore them all with detailed specifications at our [Chimney Catalog](https://faber.in/chimneys).\n\nOnce you browse through and find something interesting, just tell me the specific model name or features you're curious about, and I'll provide you with detailed information!"
+        response = f"I found {count} kitchen chimney models total. Since there are several options to choose from, you can explore them all with detailed specifications at our [Chimney Catalog](https://faber.in/chimneys).\n\nOnce you browse through and find something interesting, just tell me the specific model name or features you're curious about, and I'll provide you with detailed information!"
         append_message("assistant", response)
         return
     
@@ -1185,4 +1188,5 @@ with st.expander("Plug & Play Features"):
 st.markdown(f"**Current Customer:** {st.session_state['conv_state'].get('customer_name', 'Guest')}")
 
 st.markdown(f"**Phase:** {st.session_state['conv_state']['phase']}")
+
 
