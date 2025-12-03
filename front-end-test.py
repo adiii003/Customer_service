@@ -3,7 +3,6 @@ import streamlit as st
 from pymongo import MongoClient
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
-from langchain.chains.llm import LLMChain
 import re
 import random
 from datetime import datetime
@@ -144,9 +143,44 @@ def smart_response(prompt_template, **kwargs):
             input_variables=list(kwargs.keys()),
             template=enhanced_template
         )
-        chain = LLMChain(prompt=prompt, llm=llm)
-        response = chain.run(**kwargs)
-        return response.strip()
+        # Modern LangChain (LCEL) replacement for LLMChain usage
+
+        # create a pipeline: prompt | llm
+        chain = prompt | llm
+
+        # invoke the pipeline with the same kwargs you were passing to run()
+        result = chain.invoke(kwargs)
+
+        # helper to extract a readable string from various possible return shapes
+        def _extract_text(res):
+            # if it's already a str
+            if isinstance(res, str):
+                return res
+            # common dict-style responses
+            if isinstance(res, dict):
+                for key in ("text", "output", "response", "content"):
+                    if key in res:
+                        return res[key]
+            # langchain-style 'generations' or nested outputs
+            gens = res.get("generations") or res.get("generation") or None
+            if gens:
+                try:
+                    # generations -> list[list[Generation]] usually
+                    first = gens[0]
+                    if isinstance(first, (list, tuple)):
+                        return first[0].get("text") or first[0].get("content") or str(first[0])
+                    if isinstance(first, dict):
+                        return first.get("text") or first.get("content") or str(first)
+                except Exception:
+                    pass
+            # fallback: stringify
+            try:
+                return str(res)
+            except Exception:
+                return ""
+
+        response = _extract_text(result).strip()
+        return response
     except Exception as e:
         return f"I apologize, I'm having trouble processing that. Can you please rephrase?"
 
@@ -1142,5 +1176,4 @@ with st.expander("Plug & Play Features"):
     """)
 
 st.markdown(f"**Current Customer:** {st.session_state['conv_state'].get('customer_name', 'Guest')}")
-
 st.markdown(f"**Phase:** {st.session_state['conv_state']['phase']}")
