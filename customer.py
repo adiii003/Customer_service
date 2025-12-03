@@ -1,7 +1,7 @@
 import streamlit as st
 from pymongo import MongoClient
 from langchain_groq import ChatGroq
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 import json
 
@@ -156,3 +156,4 @@ user_input = st.text_input(
 
 st.sidebar.title("💬 Customer Service Bot")
 st.sidebar.info("Handles complaints, tickets, refunds, troubleshooting and more. Powered by Groq LLM")
+
