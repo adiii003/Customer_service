@@ -1,57 +1,26 @@
-# Core
+# Minimal stable deps for LangChain on Streamlit Cloud
 langchain==1.1.0
-langchain-community
-langchain-openai
-langchain-groq
-langchain-chroma
-langchain-huggingface
-langchain-text-splitters
-
-# Groq client
 groq
-
-# Streamlit & server
 streamlit
+ipykernel
+python-dotenv
+beautifulsoup4
+pypdf
+chromadb
+sentence-transformers
+huggingface_hub
+youtube-transcript-api
+yt_dlp
+pymongo
+mysql-connector-python
+SQLAlchemy
+validators==0.28.1
+numexpr
+reportlab
+duckduckgo-search
+wikipedia
+unstructured
 fastapi
 uvicorn
 langserve[all]
 sse_starlette
-
-# Document / scraping / parsing
-pypdf
-unstructured
-beautifulsoup4
-wikipedia
-arxiv
-duckduckgo-search
-
-# Vectorstores / embeddings / models
-chromadb
-faiss-cpu
-sentence-transformers
-huggingface_hub
-transformers
-
-# Utilities / helpers
-ipykernel
-python-dotenv
-validators==0.28.1
-numexpr
-reportlab
-
-# Youtube / transcripts / downloads
-youtube-transcript-api
-yt_dlp
-pytube
-
-# DB connectors
-pymongo
-mysql-connector-python
-SQLAlchemy
-
-# Other useful libs
-googletrans
-numexpr
-
-# Optional (keep if used in your code; otherwise remove)
-# youtube-transcript-api is included above (canonical dash form)
