@@ -13,12 +13,12 @@ DB_NAME = "Dynamic"
 COLLECTION_NAME = "sample"
 
 # Replace with your Groq key
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 
 # -----------------------------
 # LLM Setup
 # -----------------------------
-llm = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="gemma2-9b-it")
+llm = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="llama-3.1-8b-instant")
 
 # -----------------------------
 # Streamlit Config
@@ -155,5 +155,4 @@ user_input = st.text_input(
 )
 
 st.sidebar.title("💬 Customer Service Bot")
-st.sidebar.info("Handles complaints, tickets, refunds, troubleshooting and more. Powered by Adivi.ai")
-
+st.sidebar.info("Handles complaints, tickets, refunds, troubleshooting and more. Powered by Groq LLM")
