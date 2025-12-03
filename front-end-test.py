@@ -3,7 +3,7 @@ import streamlit as st
 from pymongo import MongoClient
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
-from langchain.chains import LLMChain
+from langchain.chains.llm import LLMChain
 import re
 import random
 from datetime import datetime
@@ -1142,4 +1142,5 @@ with st.expander("Plug & Play Features"):
     """)
 
 st.markdown(f"**Current Customer:** {st.session_state['conv_state'].get('customer_name', 'Guest')}")
+
 st.markdown(f"**Phase:** {st.session_state['conv_state']['phase']}")
