@@ -1,6 +1,10 @@
 groq
 langchain
 ipykernel
+langchain==0.0.350
+langchain-core==0.0.15
+langchain-community
+langchain-groq
 python-dotenv
 langchain_community 
 langchain-community 
@@ -41,4 +45,5 @@ pymongo
 reportlab
 googletrans
 numexpr
+
 huggingface_hub
