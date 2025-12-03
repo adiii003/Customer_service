@@ -1,46 +1,57 @@
+# Core
+langchain==1.1.0
+langchain-community
+langchain-openai
+langchain-groq
+langchain-chroma
+langchain-huggingface
+langchain-text-splitters
+
+# Groq client
 groq
-langchain
-ipykernel
-python-dotenv
-langchain_community 
-langchain-community 
-Pypdf 
-Bs4 
-langchain_text_splitters 
-langchain_openai 
-Sentence-transformers 
-langchain_huggingface 
-Faiss-cpu 
-Chromadb 
-langchain_chroma 
-Streamlit 
-langchain_groq
-langchain_core
+
+# Streamlit & server
+streamlit
 fastapi
 uvicorn
 langserve[all]
 sse_starlette
-python-dotenv
-arxiv
+
+# Document / scraping / parsing
+pypdf
+unstructured
+beautifulsoup4
 wikipedia
+arxiv
 duckduckgo-search
+
+# Vectorstores / embeddings / models
+chromadb
+faiss-cpu
+sentence-transformers
+huggingface_hub
+transformers
+
+# Utilities / helpers
+ipykernel
+python-dotenv
+validators==0.28.1
+numexpr
+reportlab
+
+# Youtube / transcripts / downloads
+youtube-transcript-api
+yt_dlp
+pytube
+
+# DB connectors
+pymongo
 mysql-connector-python
 SQLAlchemy
-validators==0.28.1
-youtube_transcript_api
-unstructured
-pytube
-numexpr
-huggingface_hub
-yt_dlp
-youtube-transcript-api
-#meftal fort 
-#omez
-#flagel 400
-pymongo
-reportlab
+
+# Other useful libs
 googletrans
 numexpr
 
-huggingface_hub
-
+# Optional (keep if used in your code; otherwise remove)
+# youtube-transcript-api is included above (canonical dash form)
